@@ -1,19 +1,19 @@
 const mongoose = require('mongoose');
 
 const todosSchema = mongoose.Schema({
-       title:{
-           type:String,
-           require:true
-       },
-       date_create:{
-           type:Date,
-           default:Date.now
-       }
+    title: {
+        type: String,
+        require: true
+    },
+    date_create: {
+        type: Date,
+        default: Date.now
+    }
 })
 
-const Todos = module.exports = mongoose.model("Todos",todosSchema);
+module.exports = mongoose.model("Todos", todosSchema);
 
 // Get todos
- module.exports = getTodos = (callback,limit) => {
-     Todos.find(callback).limit(limit)
-}
+//  module.exports = getTodos = (callback,limit) => {
+//      Todos.find(callback).limit(limit)
+// }
