@@ -1,3 +1,3 @@
-## THINGS @thesaintzion added lately.. ##
+## Things @thesaintzion added lately.. ##
 > .gitingnore file
 > express.json middleware in the app (alternative to bodyparser..) 
